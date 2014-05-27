@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://merlinc60.psi.ch:4040/stages/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link rel="stylesheet" href="./FilterTest - Spark Stages_files/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="./FilterTest - Spark Stages_files/webui.css" type="text/css">
+        <script src="./FilterTest - Spark Stages_files/sorttable.js"></script>
+        <title>FilterTest - Spark Stages</title>
+      </head>
+      <body>
+        <div class="navbar navbar-static-top">
+          <div class="navbar-inner">
+            <a href="http://merlinc60.psi.ch:4040/" class="brand"><img src="./FilterTest - Spark Stages_files/spark-logo-77x50px-hd.png"></a>
+            <ul class="nav">
+              <li class="active"><a href="http://merlinc60.psi.ch:4040/stages">Stages</a></li>
+              <li><a href="http://merlinc60.psi.ch:4040/storage">Storage</a></li>
+              <li><a href="http://merlinc60.psi.ch:4040/environment">Environment</a></li>
+              <li><a href="http://merlinc60.psi.ch:4040/executors">Executors</a></li>
+            </ul>
+            <p class="navbar-text pull-right"><strong>FilterTest</strong> application UI</p>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row-fluid">
+            <div class="span12">
+              <h3 style="vertical-align: bottom; display: inline-block;">
+                Spark Stages
+              </h3>
+            </div>
+          </div>
+          <div>
+         <ul class="unstyled">
+           <li>
+             <strong>Total Duration: </strong>
+             10.9 m
+           </li>
+           <li><strong>Scheduling Mode:</strong> FIFO</li>
+           <li>
+             <a href="http://merlinc60.psi.ch:4040/stages/#active"><strong>Active Stages:</strong></a>
+             1
+           </li>
+           <li>
+             <a href="http://merlinc60.psi.ch:4040/stages/#completed"><strong>Completed Stages:</strong></a>
+             5
+           </li>
+           <li>
+             <a href="http://merlinc60.psi.ch:4040/stages/#failed"><strong>Failed Stages:</strong></a>
+             0
+           </li>
+         </ul>
+       </div><h4 id="active">Active Stages (1)</h4><table class="table table-bordered table-striped table-condensed sortable">
+      <thead>
+        <tr><th>Stage Id</th>
+        
+        <th>Description</th>
+        <th>Submitted</th>
+        <th>Duration</th>
+        <th>Tasks: Succeeded/Total</th>
+        <th>Shuffle Read</th>
+        <th>Shuffle Write</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+      <td>1</td>
+      
+      <td><a href="http://merlinc60.psi.ch:4040/stages/stage?id=1">collect at DTImg.java:750</a></td>
+      <td valign="middle">2014/03/20 14:48:20</td>
+      <td sorttable_customkey="49494">
+        49.5 s
+      </td>
+      <td class="progress-cell">
+        <div class="progress">
+      <span style="text-align:center; position:absolute; width:100%;">
+        332/2048 
+      </span>
+      <div class="bar bar-completed" style="width: 16.2109375%"></div>
+      <div class="bar bar-running" style="width: 1.953125%"></div>
+    </div>
+      </td>
+      <td sorttable_customekey="2137577281">2038.6 MB</td>
+      <td sorttable_customekey="0"></td>
+    </tr>
+      </tbody>
+    <tfoot></tfoot></table><h4 id="completed">Completed Stages (5)</h4><table class="table table-bordered table-striped table-condensed sortable">
+      <thead>
+        <tr><th>Stage Id</th>
+        
+        <th>Description</th>
+        <th>Submitted</th>
+        <th>Duration</th>
+        <th>Tasks: Succeeded/Total</th>
+        <th>Shuffle Read</th>
+        <th>Shuffle Write</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+      <td>2</td>
+      
+      <td><a href="http://merlinc60.psi.ch:4040/stages/stage?id=2">groupByKey at DTImg.java:702</a></td>
+      <td valign="middle">2014/03/20 14:48:02</td>
+      <td sorttable_customkey="17719">
+        17.7 s
+      </td>
+      <td class="progress-cell">
+        <div class="progress">
+      <span style="text-align:center; position:absolute; width:100%;">
+        2660/2048 
+      </span>
+      <div class="bar bar-completed" style="width: 129.8828125%"></div>
+      <div class="bar bar-running" style="width: 0.0%"></div>
+    </div>
+      </td>
+      <td sorttable_customekey="21715666247">20.2 GB</td>
+      <td sorttable_customekey="25412911946">23.7 GB</td>
+    </tr><tr>
+      <td>2</td>
+      
+      <td><a href="http://merlinc60.psi.ch:4040/stages/stage?id=2">groupByKey at DTImg.java:702</a></td>
+      <td valign="middle">2014/03/20 14:48:02</td>
+      <td sorttable_customkey="17719">
+        17.7 s
+      </td>
+      <td class="progress-cell">
+        <div class="progress">
+      <span style="text-align:center; position:absolute; width:100%;">
+        2660/2048 
+      </span>
+      <div class="bar bar-completed" style="width: 129.8828125%"></div>
+      <div class="bar bar-running" style="width: 0.0%"></div>
+    </div>
+      </td>
+      <td sorttable_customekey="21715666247">20.2 GB</td>
+      <td sorttable_customekey="25412911946">23.7 GB</td>
+    </tr><tr>
+      <td>3</td>
+      
+      <td><a href="http://merlinc60.psi.ch:4040/stages/stage?id=3">flatMap at DTImg.java:886</a></td>
+      <td valign="middle">2014/03/20 14:47:22</td>
+      <td sorttable_customkey="39657">
+        39.7 s
+      </td>
+      <td class="progress-cell">
+        <div class="progress">
+      <span style="text-align:center; position:absolute; width:100%;">
+        2352/2048 
+      </span>
+      <div class="bar bar-completed" style="width: 114.84375%"></div>
+      <div class="bar bar-running" style="width: 0.0%"></div>
+    </div>
+      </td>
+      <td sorttable_customekey="0"></td>
+      <td sorttable_customekey="22549794661">21.0 GB</td>
+    </tr><tr>
+      <td>3</td>
+      
+      <td><a href="http://merlinc60.psi.ch:4040/stages/stage?id=3">flatMap at DTImg.java:886</a></td>
+      <td valign="middle">2014/03/20 14:47:22</td>
+      <td sorttable_customkey="39657">
+        39.7 s
+      </td>
+      <td class="progress-cell">
+        <div class="progress">
+      <span style="text-align:center; position:absolute; width:100%;">
+        2352/2048 
+      </span>
+      <div class="bar bar-completed" style="width: 114.84375%"></div>
+      <div class="bar bar-running" style="width: 0.0%"></div>
+    </div>
+      </td>
+      <td sorttable_customekey="0"></td>
+      <td sorttable_customekey="22549794661">21.0 GB</td>
+    </tr><tr>
+      <td>0</td>
+      
+      <td><a href="http://merlinc60.psi.ch:4040/stages/stage?id=0">collect at DTImg.java:750</a></td>
+      <td valign="middle">2014/03/20 14:38:15</td>
+      <td sorttable_customkey="4871">
+        4.9 s
+      </td>
+      <td class="progress-cell">
+        <div class="progress">
+      <span style="text-align:center; position:absolute; width:100%;">
+        2048/2048 
+      </span>
+      <div class="bar bar-completed" style="width: 100.0%"></div>
+      <div class="bar bar-running" style="width: 0.0%"></div>
+    </div>
+      </td>
+      <td sorttable_customekey="0"></td>
+      <td sorttable_customekey="0"></td>
+    </tr>
+      </tbody>
+    <tfoot></tfoot></table><h4 id="failed">Failed Stages (0)</h4><table class="table table-bordered table-striped table-condensed sortable">
+      <thead>
+        <tr><th>Stage Id</th>
+        
+        <th>Description</th>
+        <th>Submitted</th>
+        <th>Duration</th>
+        <th>Tasks: Succeeded/Total</th>
+        <th>Shuffle Read</th>
+        <th>Shuffle Write</th>
+      </tr></thead>
+      <tbody>
+        
+      </tbody>
+    <tfoot></tfoot></table>
+        </div>
+      
+    
+</body></html>
