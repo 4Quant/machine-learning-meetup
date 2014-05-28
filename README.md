@@ -9,4 +9,5 @@ Recent improvements in the rate and quality of gene sequencing have resulted in 
 ### Presentation
 - [Link](https://rawgithub.com/4Quant/machine-learning-meetup/master/zurichMLPresentation.html)
 
-<iframe src='https://rawgithub.com/4Quant/machine-learning-meetup/master/zurichMLPresentation.html' width='100%' height='800'></iframe>
+
+<iframe src="https://rawgithub.com/4Quant/machine-learning-meetup/master/zurichMLPresentation.html" width="640" height="480" style="display:block; margin: 0 auto;">&nbsp;</iframe>
